@@ -4,7 +4,7 @@ if (value >= 53) {
 }
 else {
 	value -= 13;
-}
+};
 value += "11";
 array = [];
 for (var i = 0; i < value.length; i++) {
@@ -18,6 +18,7 @@ for (var i = 1; i >= 0; i--) {
 };
 newInfo = parseInt(newInfo);
 value = parseInt(value);
+value = value + newInfo;
 if (value < 60) {
 	value = 14;
 }
@@ -26,7 +27,7 @@ else if (value == 2930) {
 }
 else {
 	value = 2;
-}
+};
 i = 10;
 while(i > 0) {
 	value++;
@@ -38,7 +39,7 @@ var functionOne = function(val) {
 		val = val.slice(1);
 		return value = val;
 	};
-}
+};
 
 functionOne(value);
 console.log(value);
