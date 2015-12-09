@@ -35,7 +35,7 @@ while(i > 0) {
 var functionOne = function(val) {
 	val = val.toString();
 	if (val.length > 1) {
-		val = val.slide(1);
+		val = val.slice(1);
 		return value = val;
 	};
 }
